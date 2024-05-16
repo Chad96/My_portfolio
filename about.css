@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("img/jj.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-color: rgba(
+    71,
+    71,
+    71,
+    0.8
+  ); /* background color to semi-transparent */
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.lead {
+  color: #454745;
+  font-size: medium;
+}
+
+.about {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-content {
+  text-align: center;
+  color: rgb(1, 20, 19);
+}
+
+.about-content img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px; /*margin to create more space below the image */
+}
+
+.about-content h2 {
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}
+
+.education {
+  margin-bottom: 10px; /*margin bottom to create more space between education sections */
+  margin-top: 10%;
+}
+
+.mancosa {
+  margin-left: -40%;
+}
+
+.alx {
+  margin-right: -80%;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-links li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #608f6e;
+}
+
+.social-links li a:hover {
+  background-color: #3086c0;
+  color: #ffffff;
+}
+.icon {
+  max-width: 10%;
+}
+.languages {
+  margin-left: -20%;
+  margin-top: 7%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #020202;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #797979;
+}
+
+tr:nth-child(even) {
+  background-color: #cecaca; /* Change the background color of even rows */
+}
+
+td:nth-child(even) {
+  background-color: #aaa7a7; /* Change the background color of even columns */
+}

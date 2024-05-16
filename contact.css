@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("img/jj.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #000000;
+}
+
+p {
+  color: #313131;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #041153;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 490px;
+  background-color: #b6b6b6;
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 100%;
+}
+
+.flex {
+  display: flex;
+  gap: 6px;
+}
+
+.form label {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.form label .input,
+.input01 {
+  width: calc(100% - 22px);
+  padding: 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 5px;
+}
+
+.form label .input + span,
+.form label .input01 + span {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(0, 0, 0);
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown + span,
+.form label .input01:placeholder-shown + span {
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9em;
+}
+
+.form label .input:focus + span,
+.form label .input:valid + span,
+.form label .input01:focus + span,
+.form label .input01:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.form label .input:valid + span,
+.form label .input01:valid + span {
+  color: green;
+}
+
+.submit-button {
+  width: 100%; /* Make the button full width */
+  padding: 20px; /* Adjust padding to increase button size */
+  background-color: #5ebe62; /* Green background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #3ab440; /* Darker green background color on hover */
+}
+.flex {
+  display: flex;
+  gap: 6px;
+  width: 100%;
+}
+
+.flex label {
+  flex: 1; /* Equal width for both labels */
+}
+
+.form label .input,
+.input01 {
+  width: calc(100% - 22px);
+  padding: 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 5px;
+  flex: 1; /* Equal width for both inputs */
+}
