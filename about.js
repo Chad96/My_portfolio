@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <a href="https://github.com/Chad96" target="_blank" class="btn btn-dark">GitHub</a>
       </li>
       <li class="list-inline-item">
-        <a href="img/cv/SE_cv.pdf" target="_blank" class="btn btn-success">Resume</a>
+        <a href="img/cv/new_SE_ cv-combined.pdf" target="_blank" class="btn btn-success">Resume</a>
       </li>
     `;
 
@@ -150,9 +150,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 </td>
               </tr>
               <tr>
-                <td>Basic Portfolio</td>
+                <td>CodeTribe Portfolio assessment</td>
                 <td>
-                  ● Basic portfolio built with HTML, CSS, and JavaScript.
+                  ● Portfolio built with HTML, CSS, and JavaScript.
                   <br />
                   ● HTML (structure)
                   <br />
@@ -160,14 +160,37 @@ document.addEventListener("DOMContentLoaded", function () {
                   <br />
                   ● JavaScript(Functionality)
                   <br />
-                  ● GitHub(hosting)
+                  ● Vercel(hosting)
                 </td>
-                <td>HTML, CSS, JavaScript, GitHub</td>
+                <td>HTML, CSS, JavaScript, GitHub, Vercel</td>
                 <td>
-                  <a href="https://github.com/Chad96/Chad96.github.io.git" target="_blank">source_code</a>
-                  <a href="https://chad96.github.io/" target="_blank">live</a>
+                  <a href="https://github.com/Chad96/Portfolio/blob/Intro-to-Javascript/about.js" target="_blank">source_code</a>
+                  <a href="https://my-portfolio-orpin-tau-67.vercel.app/" target="_blank">live</a>
                 </td>
+                
+                
               </tr>
+              <tr>
+              <td>CodeTribe final assessment</td>
+              <td>
+                ● A landing page of a website with an intro-section and a drop-down menu.
+                <br />
+                ● HTML
+                <br />
+                ● CSS 
+                <br />
+                ● JavaScript
+                <br />
+                ● Vercel(hosting)
+              </td>
+              <td>HTML, CSS, JavaScript, Vercel, GitHub</td>
+              <td>
+                <a href="https://github.com/Chad96/Final-Codetribe-Bootcamp-Assessment" target="_blank">source_code</a>
+                <a href="https://chad-bootcamp-final.vercel.app/" target="_blank">live</a>
+              </td>
+              
+              
+            </tr>
             </tbody>
           </table>
         </div>
